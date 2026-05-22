@@ -118,11 +118,3 @@ The datasets are not included in this repository as they were provided for cours
 - `data_ps4.dta` — mortgage-level cross-section (Project 2)
 
 ---
-
-## Notes on code style
-
-- All file paths are relative — set your working directory with `cd` at the top of each script
-- Each step is clearly delimited with a header comment
-- Intermediate datasets saved as `.dta` files to allow re-entry at any step
-- Figures exported as `.png` at 1600px width
-- Tables exported as `.tex` for LaTeX integration
