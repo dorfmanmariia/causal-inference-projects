@@ -37,16 +37,6 @@ Step 5  Treatment effect estimation: OLS / PSM / CEM / IPWRA
 Step 6  Robustness: alternative outcome (ΔROA), placebo, size heterogeneity
 Step 7  Figures: PS overlap, ROA density after matching, dynamic effects
 ```
-
-### Required packages
-```stata
-ssc install psmatch2
-ssc install cem
-ssc install winsor2
-ssc install estout
-ssc install coefplot
-```
-
 ---
 
 ## Project 2: Credit Scores, Interest Rates, and Mortgage Default
@@ -80,16 +70,6 @@ Reduced form:  FICO ≥ 620  →  lower delinquency
 - MSE-optimal bandwidth via `rdrobust` (uniform and triangular kernels)
 - Probit marginal effect as robustness to functional form
 
-**Heterogeneity**
-- Bank vs. broker-originated loans
-- Racial heterogeneity (white vs. non-white borrowers)
-- Refinance vs. purchase mortgages
-- Formal interaction tests
-
-**Bandwidth sensitivity**
-- 2SLS coefficient plotted across bandwidths 25–60 with 95% CIs
-- Local randomization tests in narrow windows (±5, ±10)
-
 ### Pipeline
 ```
 Step 0  Data loading, diagnostics, logical consistency checks
@@ -99,16 +79,6 @@ Step 3  Main results: reduced form + 2SLS (Table 4)
 Step 4  Heterogeneity analysis (Table 5)
 Step 5  Bandwidth sensitivity graph + local randomization tests
 ```
-
-### Required packages
-```stata
-ssc install estout
-ssc install rdrobust
-ssc install rddensity
-ssc install lpdensity
-net install rdlocrand, from(https://raw.githubusercontent.com/rdpackages/rdlocrand/master/stata)
-```
-
 ---
 
 ## Data
