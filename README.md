@@ -1,5 +1,5 @@
 [README.md](https://github.com/user-attachments/files/28160060/README.md)
-# causal-inference-projects
+# Causal Inference Projects
 
 Stata code for two applied microeconometrics projects. Each project uses real-world data and implements a complete causal inference pipeline — from data cleaning and validity checks through to robustness analysis and visualization.
 
