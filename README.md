@@ -117,8 +117,6 @@ The datasets are not included in this repository as they were provided for cours
 - `data_ps2.dta` — firm-level panel data (Project 1)
 - `data_ps4.dta` — mortgage-level cross-section (Project 2)
 
-Place both files in your working directory and update the `cd` path at the top of each script.
-
 ---
 
 ## Notes on code style
