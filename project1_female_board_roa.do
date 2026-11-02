@@ -16,9 +16,7 @@ clear all
 set more off
 set varabbrev off
 
-* ----> Set your working directory here <----
-* cd "/your/path/here"
-
+* The data come from a course and can't be shared.
 * Data file should be named "data_ps2.dta" in your working directory
 use "data_ps2.dta", clear
 
